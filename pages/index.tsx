@@ -1,5 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import tw, { styled } from 'twin.macro'
+
+const TestDiv = styled.div`
+  ${tw`text-black`}
+`
 
 export const Home = (): JSX.Element => (
   <div className="container">
@@ -10,6 +15,7 @@ export const Home = (): JSX.Element => (
 
     <main>
       <h1 className="title">
+        <TestDiv>안녕하세요</TestDiv>
         Welcome to <a href="https://nextjs.org">Next.js!</a>
       </h1>
 
