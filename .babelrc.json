@@ -20,7 +20,7 @@
           "."
         ],
         "alias": {
-          "@pages": "./pages"
+          "@pages/*": "./pages/*"
         }
       }
     ]

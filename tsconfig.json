@@ -15,7 +15,7 @@
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
-      "@pages": ["./pages"]
+      "@pages/*": ["./pages/*"]
     }
   },
   "files": ["twin.d.ts"],
