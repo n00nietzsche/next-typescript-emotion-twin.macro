@@ -3,7 +3,7 @@ import Image from 'next/image'
 import tw, { styled } from 'twin.macro'
 
 const TestDiv = styled.div`
-  ${tw`text-black`}
+  ${tw`text-green-400`}
 `
 
 export const Home = (): JSX.Element => (
@@ -16,7 +16,8 @@ export const Home = (): JSX.Element => (
     <main>
       <h1 className="title">
         <TestDiv>안녕하세요</TestDiv>
-        Welcome to <a href="https://nextjs.org">Next.js!</a>
+        <span className="text-blue-700">Welcome to </span>
+        <a href="https://nextjs.org">Next.js!</a>
       </h1>
 
       <p className="description">

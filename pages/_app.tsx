@@ -2,6 +2,7 @@ import { FC } from 'react'
 import Head from 'next/head'
 import { GlobalStyles } from 'twin.macro'
 import { AppProps } from 'next/app'
+import './index.css'
 
 const App: FC<AppProps> = ({ Component, pageProps }: AppProps) => (
   <>
